@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+body{
+    background-color:beige;
+}
+
+.container{
+    width: 350px;
+    height: 500px;
+    margin-left: 40%;
+    margin-top: 100px;
+    border-radius: 30px;
+    background-color: black;
+}
+.result{
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    margin-right: 20px;
+    height: 110px;
+}
+h1{
+    color: #FFFFFF;
+    font-size: 50px;
+    margin-bottom: 10px;
+    height: 60px;
+    /* text-align: end; */
+}
+h3{
+    color: #7A7A7A;
+    margin-top: 30px;
+    height: 50px;
+    padding: 10px;
+    font-size: 24px;
+    /* text-align: end; */
+}
+.numbers{
+    margin-top: 30px;
+}
+.row1, .row2, .row3, .row4, .row5{
+    display: flex;
+    justify-content: space-evenly;
+}
+.button1,.button2, .button3, .button4, .button6{
+    border: 1px black solid;
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    text-align: center;
+    padding-top: 12px;
+    margin: 5px;
+    background-color: #333333;
+    color: #FDFCFD;
+    cursor: pointer;
+}
+
+.ac, .back, .percent{
+    background-color: #a5a5a5;
+    color: black;
+}
+.ac:hover, .back:hover, .percent:hover{
+    background-color: #515151;
+    color: black;
+}
+.division, .multiplication, .minus, .plus, .equals{
+    background-color: #F29E4B;
+    color: #FCFAF4;
+}
+.division:hover, .multiplication:hover, .minus:hover, .plus:hover, .equals:hover{
+    background-color: #a77d54;
+    color: #FCFAF4;
+} 
+.number1:hover, .number2:hover,.number3:hover,.number4:hover,.number5:hover,.number6:hover,.number7:hover,.number8:hover,.number9:hover{
+    background-color: #222222;
+}
+
+.button5{
+    border: 1px black solid;
+    width: 150px;
+    height: 60px;
+    border-radius: 100px;
+    padding-left: 20px;
+    padding-top: 14px;
+    margin: 5px;
+    background-color: #333333;
+    color: #FDFCFD;
+    cursor: pointer;
+}
+.button5:hover{
+    background-color: #222222;
+}
+.dot:hover{
+    background-color: #222222;
+}
