@@ -45,8 +45,6 @@ total.addEventListener("click", addTotal);
 equals.addEventListener("click", addEquals);
 dot.addEventListener("click", addDot)
 
-
-
 //functions
 
 function acButton(){
