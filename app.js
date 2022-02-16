@@ -1,3 +1,4 @@
+//Selectors
 //functional buttons
 let acbutton = document.getElementById("ac");
 let back = document.querySelector(".back");
